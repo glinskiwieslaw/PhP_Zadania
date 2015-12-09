@@ -9,7 +9,8 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <?php
 
-function liczbaDoskonalaNiekompletna($n) {
+function liczbaDoskonalaNiekompletna($n)
+{
     $dzielnik = 0;
     for ($i = 1; $i < $n; $i = $i + 1) {
         if ($n % $i == 0) {

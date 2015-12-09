@@ -14,7 +14,8 @@ i zwraca jako wynik $a do potęgi $n.*/
 
 <?php
 
-function potega($arg1,$arg2) {
+function potega($arg1,$arg2)
+{
 $wynik=$arg1;
     for ($i=2; $i<=$arg2; $i=$i+1) {
         $wynik=$wynik*$arg1;

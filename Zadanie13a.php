@@ -16,7 +16,6 @@ $wynik=1;
 $pi=0;
 $licznik=0;
 for ($i=1; $i<=$n; $i=$i+1){
-
     if ($i % 2!=0 && $i!=1) {
         $licznik=$licznik+1;
         $dzielnik=1/$i;

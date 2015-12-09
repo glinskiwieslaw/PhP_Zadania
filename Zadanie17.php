@@ -27,7 +27,8 @@ function liczbaPodzielna($arg1)
     return $liczbaPodz;
 }
 
-function liczbaPierwsza($arg) {
+function liczbaPierwsza($arg)
+{
     if (liczbaPodzielna($arg) == 1) {
         echo $arg . ' NIE jest liczbą pierwszą';
     }

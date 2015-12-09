@@ -27,7 +27,8 @@ function liczbaPodzielna($arg1)
     return False;
 }
 
-function liczbaPierwsza($arg) {
+function liczbaPierwsza($arg)
+{
     if (liczbaPodzielna($arg) == True) {
         return False;
     }

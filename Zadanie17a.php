@@ -21,23 +21,21 @@ function liczbaPodzielna($arg1)
 
     for ($i = 2; $i < $arg1; $i = $i + 1) {
         if ($arg1 % $i == 0) {
-
             $liczbaPodz=1;
             return $liczbaPodz;
         }
     }
     return $liczbaPodz;
-
 }
 
-function liczbaPierwsza($arg) {
+function liczbaPierwsza($arg)
+{
     if (liczbaPodzielna($arg) == 1) {
         return False;
     }
     else {
         return True;
     }
-
 }
 
 $n=1100;

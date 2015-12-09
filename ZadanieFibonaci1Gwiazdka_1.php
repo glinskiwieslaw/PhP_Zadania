@@ -9,7 +9,8 @@
 (http://pl.wikipedia.org/wiki/Ci%C4%85g_Fibonacciego) aż do podanej zmiennej. Nie używaj do tego rekurencji.*/
 
 
-function fib ($x) {
+function fib ($x)
+{
     $pierwszy = 1;
     $drugi = 1;
     if( $x ==1) {

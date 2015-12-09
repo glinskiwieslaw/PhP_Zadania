@@ -12,7 +12,8 @@
 Np. Dla parametru $x = 15 wynik ma być:
 12Foo4BarFoo78FooBar11Foo1314FOOBAR*/
 
-function fooBar($arg) {
+function fooBar($arg)
+{
     for ($i=1; $i<=$arg; $i=$i+1){
         if ($i % 3==0 && $i % 5!=0 ){
             echo "Foo";
@@ -29,5 +30,6 @@ function fooBar($arg) {
     }
 /*    return TRUE;*/
 }
+
 echo fooBar(15);
 

@@ -12,16 +12,17 @@
 
 <?php
 
-function potega($arg1,$arg2) {
+function potega($arg1,$arg2)
+{
     $wynik=$arg1;
-
     for ($i=2; $i<=$arg2; $i=$i+1) {
         $wynik=$wynik*$arg1;
     }
     return $wynik;
 }
 
-function silnia($arg1) {
+function silnia($arg1)
+{
     $wynik=1;
     for ($i=1; $i< $arg1; $i=$i+1) {
         $wynik=$wynik *($i+1);
@@ -31,14 +32,14 @@ function silnia($arg1) {
 
 
 
-function myCos($x, $iterNum) {
+function myCos($x, $iterNum)
+{
     $wynik=$x;
     $ulamek=$x;
     $licznik=0;
     $j=0;
     /*    $i=0;*/
     echo 'x = ' . $x . ' <br> Liczba iteracji = ' . $iterNum . '<br> <hr><hr>';
-
     while ($licznik< $iterNum ) {
         $j=$j+1;
         if ($j % 2==0 && $j!=1) {

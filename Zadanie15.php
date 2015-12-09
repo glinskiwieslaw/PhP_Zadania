@@ -10,9 +10,14 @@
 
 $n = 19;
 
-function Fibonacci($element){
-    if($element<=2) return 1;
-    else return Fibonacci($element-2) + Fibonacci($element-1);
+function Fibonacci($element)
+{
+    if ($element <= 2) {
+        return 1;
+    }
+    else {
+        return Fibonacci($element - 2) + Fibonacci($element - 1);
+    }
 }
 
 $wartosc = Fibonacci($n);
